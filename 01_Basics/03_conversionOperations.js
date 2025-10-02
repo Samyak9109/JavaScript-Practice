@@ -29,3 +29,28 @@ console.log(stringNum)
 console.log(typeof stringNum)
 
 //number is conveeted into string types
+
+//************************  OPERATIONS  ****************************\\
+console.log(2+3)
+console.log(2-3)
+console.log(2*2)
+console.log(2**3) //return 2 raised to power 3
+console.log(2/3)
+console.log(3%2)
+
+let str1 = "Hello"
+let str2 = "Samyak"
+let str3 = str1 + str2
+
+console.log("1" + 2)
+console.log(1 + "2")
+console.log("1" + 2 + 2 )
+console.log(1 + 2 + "2")
+/* type is decided by what comes first , 
+like in this case int and the two numbers add  
+them the new string is added in this the first string pppears so it is concatenanted"
+*/
+
+console.log(true)
+console.count(+true)
+
