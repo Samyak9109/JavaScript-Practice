@@ -18,4 +18,4 @@ console.log(undefined < 0);
 
 // === 
 
-console.log("2" === 2); //it conpares data types also
+console.log("2" === 2); //it compares data types also

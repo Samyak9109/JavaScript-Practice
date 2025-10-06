@@ -35,3 +35,26 @@ const myFunction = function(){
 console.log(typeof anotherId);
 
 // https://262.ecma-international.org/5.1/#sec-11.4.3
+
+/* 
+Stack (Primitive) and Heap (Non- Primitive)
+Stack provies copy for variables declared using stack 
+Heap provides reference for variable declared using Heap 
+*/
+let myYoutubeName = "SamyakJaindotcom"
+let anotherName = myYoutubeName
+anotherName = "chaiAuRCode"
+
+console.log(myYoutubeName);
+console.log(anotherName);
+
+let userOne = {//Heap 
+    email : "user@mail.com",
+    upi : "user@ybl"
+}
+let userTwo = userOne;
+
+userTwo.email = "userTwo@google.com"
+
+console.log(userOne.email);
+console.log(userTwo.email)
