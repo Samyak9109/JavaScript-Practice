@@ -1,10 +1,11 @@
 //var c = 300
 let a = 300
-if (true) {
+//outside paranthesis scope is called global scope 
+if (true) { // scope is defined by {} 
+    //scope inside this paranthesis is called block scope 
     let a = 10
     const b = 20
-    // console.log("INNER: ", a);
-    
+    // console.log("INNER: ", a);  
 }
 
 
@@ -14,20 +15,24 @@ if (true) {
 // console.log(c);
 
 
-function one(){
+function one(){ // scope of function one
     const username = "hitesh"
 
-    function two(){
+    function two(){ // scope of function two
         const website = "youtube"
         console.log(username);
-    }
+    } 
     // console.log(website);
 
-     two()
+    two() // calling function two inside function one 
 
 }
 
 // one()
+
+//line by line execution is done is JS
+//JavaScript is a interpreted language
+
 
 if (true) {
     const username = "hitesh"
@@ -52,7 +57,7 @@ function addone(num){
 
 
 
-addTwo(5)
-const addTwo = function(num){
+addTwo(5) // this gives error because function expression is not hoisted
+const addTwo = function(num){ // function expression 
     return num + 2
 }
