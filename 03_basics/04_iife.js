@@ -1,12 +1,14 @@
 // Immediately Invoked Function Expressions (IIFE)
 
 
-(function chai(){
+(function chai(){ // named IIFE -> Immediately Invoked Function Expression
     // named IIFE
     console.log(`DB CONNECTED`);
-})();
+})(); // invoked right after defining //semicolon is important here
+//TO prevent polluting global namespace iife is used
 
-( (name) => {
+
+( (name) => { //anonymous IIFE 
     console.log(`DB CONNECTED TWO ${name}`);
-} )('hitesh')
+} )('hitesh') // output: DB CONNECTED TWO hitesh
 
