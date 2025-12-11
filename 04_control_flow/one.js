@@ -2,7 +2,12 @@
 const isUserloggedIn = true
 const temperature = 41
 
-// if ( temperature === 40 ){
+//=== strict equality also checks type
+//==  loose equality means it checks only value not type
+//= assignment
+// !== means not equal value or not equal type
+
+// if ( temperature === 40 ){ 
 //     console.log("less than 50");
 // } else {
 //     console.log("temperature is greater than 50");
@@ -17,13 +22,15 @@ const temperature = 41
 //     let power = "fly"
 //     console.log(`User power: ${power}`);
 // }
+//$ is used for string interpolation meaning embedding variables inside strings
 
 // console.log(`User power: ${power}`);
 
 
 // const balance = 1000
 
-// if (balance > 500) console.log("test"),console.log("test2");
+//Shorthand if statement
+// if (balance > 500) console.log("test"),console.log("test2");//bad code practice
 
 // if (balance < 500) {
 //     console.log("less than 500");
