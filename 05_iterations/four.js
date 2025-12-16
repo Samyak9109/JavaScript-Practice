@@ -5,7 +5,7 @@ const myObject = {
     swift: "swift by apple"
 }
 
-for (const key in myObject) {
+for (const key in myObject) { // key will take the property names one by one
     //console.log(`${key} shortcut is for ${myObject[key]}`);
 }
 

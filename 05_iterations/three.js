@@ -1,11 +1,11 @@
-// for of
+// for of 
 
-// ["", "", ""]
-// [{}, {}, {}]
+// ["", "", ""] // array of strings
+// [{}, {}, {}] // array of objects
 
 const arr = [1, 2, 3, 4, 5]
 
-for (const num of arr) {
+for (const num of arr) { // num will take value of each element of array one by one 
     //console.log(num);
 }
 
@@ -25,7 +25,7 @@ map.set('IN', "India")
 
 // console.log(map);
 
-for (const [key, value] of map) {
+for (const [key, value] of map) { // destructuring assignment
     // console.log(key, ':-', value);
 }
 
@@ -34,7 +34,7 @@ const myObject = {
     game2: 'Spiderman'
 }
 
-// for (const [key, value] of myObject) {
+// for (const [key, value] of myObject) { // objects are not iterable
 //     console.log(key, ':-', value);
     
 // }
